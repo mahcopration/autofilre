@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/minemahsoom/autofilre.git /autofilre
+  git clone https://github.com/mahcopration/autofilre.git /autofilre
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /autofilre
